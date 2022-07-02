@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: "Locus Flutter Test",
+      title: "Flutter Test",
       home: HomePage(),
     );
   }
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Locus Flutter Test"),
+        title: const Text("Flutter Test"),
       ),
       body: SingleChildScrollView(
         child: Column(
